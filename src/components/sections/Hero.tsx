@@ -4,10 +4,7 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { motion } from "framer-motion";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Button } from "@/components/ui/Button";
-import { FaIcon } from "@/components/ui/FaIcon";
-import { site } from "@/lib/site";
 import heroPhoto from "../../../assets/coworking/IMG_1341.png";
 
 export function Hero() {
@@ -61,9 +58,9 @@ export function Hero() {
           initial={{ opacity: 1, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.95, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-          className="heading-display mt-8 max-w-full text-4xl sm:text-5xl md:text-6xl lg:text-[6.5rem] text-balance [overflow-wrap:anywhere]"
+          className="heading-display mt-8 max-w-4xl text-[2.25rem] leading-[1.05] sm:text-5xl md:text-6xl xl:text-7xl text-balance break-words"
         >
-          Seu espaço corporativo no <em className="text-silver not-italic font-display italic">coração</em> de Belo Horizonte.
+          Seu espaço corporativo no <em className="font-display italic text-silver">coração</em> de Belo Horizonte.
         </motion.h1>
 
         <motion.p
@@ -86,11 +83,8 @@ export function Hero() {
           <Button href="/contato" variant="outline">
             Agendar uma visita
           </Button>
-          <Button href={site.whatsapp.link} variant="primary" external icon={false}>
-            <span className="inline-flex items-center gap-2">
-              <FaIcon icon={faWhatsapp} className="h-3.5 w-3.5" />
-              Falar no WhatsApp
-            </span>
+          <Button href="/sobre" variant="primary">
+            Conhecer o coworking
           </Button>
         </motion.div>
       </div>

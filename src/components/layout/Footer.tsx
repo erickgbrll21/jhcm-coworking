@@ -4,7 +4,7 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { nav, site } from "@/lib/site";
 import { Logo } from "@/components/ui/Logo";
 import { FaIcon } from "@/components/ui/FaIcon";
@@ -29,15 +29,6 @@ export function Footer() {
                 className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-bone-300/70 transition-colors hover:border-silver/50 hover:text-silver"
               >
                 <FaIcon icon={faInstagram} className="h-4 w-4" />
-              </a>
-              <a
-                href={site.socials.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="LinkedIn"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-bone-300/70 transition-colors hover:border-silver/50 hover:text-silver"
-              >
-                <FaIcon icon={faLinkedin} className="h-4 w-4" />
               </a>
             </div>
           </div>

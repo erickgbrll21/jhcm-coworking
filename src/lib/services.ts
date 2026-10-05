@@ -174,19 +174,9 @@ export const audiences = [
 
 export const timeline = [
   {
-    year: "2018",
+    year: "2022",
     title: "Nasce a JHCM",
     text: "Fundada com a proposta de oferecer um coworking executivo verdadeiramente premium em Belo Horizonte.",
-  },
-  {
-    year: "2020",
-    title: "Expansão do andar",
-    text: "Ocupação completa do 12º andar do edifício, com novas salas privativas e área diretiva.",
-  },
-  {
-    year: "2022",
-    title: "Novo padrão executivo",
-    text: "Renovação completa do mobiliário, iluminação e estrutura tecnológica.",
   },
   {
     year: "2025",

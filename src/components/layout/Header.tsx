@@ -42,8 +42,8 @@ export function Header() {
         open
           ? "bg-ink-950"
           : scrolled
-            ? "border-b border-white/5 bg-ink-950/80 backdrop-blur-xl"
-            : "bg-transparent"
+            ? "border-b border-white/10 bg-ink-950/95 shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)] backdrop-blur-xl"
+            : "border-b border-transparent bg-transparent"
       )}
     >
       <div className="container flex h-[5.5rem] items-center justify-between sm:h-[5.75rem]">

@@ -21,8 +21,8 @@ export const site = {
     link: "https://wa.me/5531985614005?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20a%20JHCM%20Coworking.",
   },
   phone: {
-    display: "(31) 3333-3333",
-    link: "tel:+553133333333",
+    display: "(31) 3295-0497",
+    link: "tel:+553132950497",
   },
   email: "contato@jhcmcoworking.com.br",
   hours: {
@@ -31,7 +31,6 @@ export const site = {
   },
   socials: {
     instagram: "https://instagram.com/jhcmcoworking",
-    linkedin: "https://linkedin.com/company/jhcmcoworking",
   },
   mapsEmbed:
     "https://www.google.com/maps?q=R.%20Buenos%20Aires%2C%2010%20-%20Carmo%2C%20Belo%20Horizonte%20-%20MG%2C%2030315-570&output=embed",

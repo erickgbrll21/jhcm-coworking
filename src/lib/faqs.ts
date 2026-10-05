@@ -26,7 +26,7 @@ export const homeFaqs: FAQItem[] = [
 export const sobreFaqs: FAQItem[] = [
   {
     q: "Há quanto tempo a JHCM existe?",
-    a: "A JHCM foi fundada em 2018 com a proposta de oferecer um coworking executivo verdadeiramente premium em Belo Horizonte.",
+    a: "A JHCM foi fundada em 2022 com a proposta de oferecer um coworking executivo verdadeiramente premium em Belo Horizonte.",
   },
   {
     q: "Quem costuma utilizar o espaço?",
